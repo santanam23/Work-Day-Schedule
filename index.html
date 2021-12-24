@@ -23,110 +23,125 @@
   </head>
 
   <body>
-    <header class="jumbotron">
+    <header class="header">
       <h1 class="display-3">Work Day Scheduler</h1>
       <p class="lead">A simple calendar app for scheduling your work day</p>
       <p id="currentDay" class="lead"></p>
     </header>
-    <div class="container" spellcheck="false">
+    <div class="container">
+      <h1>Day Of The Week</h1>
+        <div class="schedule_container">
+          <div class="days_container">
+            <span class="corner"></span>
+            <div class="day">Sunday</div>
+            <div class="day">Monday</div>
+            <div class="day">Tuesday</div>
+            <div class="day">Wednesday</div>
+            <div class="day">Thursday</div>
+            <div class="day">Friday</div>
+            <div class="day">Saturday</div>
+          </div>
+
+          </div>
+        </div>
+        <div class = "row my-row">
+          <div class = "col my-col col-a1 colorcode" id = "6am"> 6am </div>
+          <div class = "col my-col col-a2 edit_cont" > </div>
+          <div class = "col my-col col-a3 edit_btn"> edit </div>
+      </div>
+      <div class = "row my-row" >
+          <div class = "col my-col col-b1 colorcode" id = "7am"> 7am </div>
+          <div class = "col my-col col-b2 edit_cont">  </div>
+          <div class = "col my-col col-b3 edit_btn"> edit </div>
+      </div>
+      <div class = "row my-row" >
+          <div class = "col my-col col-c1 colorcode" id = "8am" > 8am </div>
+          <div class = "col my-col col-c2 edit_cont">  </div>
+          <div class = "col my-col col-c3 edit_btn"> edit </div>
+      </div>
+        <div class = "row my-row">
+          <div class = "col my-col col-a1 colorcode" id = "9am"> 9am </div>
+          <div class = "col my-col col-a2 edit_cont" > </div>
+          <div class = "col my-col col-a3 edit_btn"> edit </div>
+      </div>
+      <div class = "row my-row" >
+          <div class = "col my-col col-b1 colorcode" id = "10am"> 10am </div>
+          <div class = "col my-col col-b2 edit_cont">  </div>
+          <div class = "col my-col col-b3 edit_btn"> edit </div>
+      </div>
+      <div class = "row my-row" >
+          <div class = "col my-col col-c1 colorcode" id = "11am" > 11am </div>
+          <div class = "col my-col col-c2 edit_cont">  </div>
+          <div class = "col my-col col-c3 edit_btn"> edit </div>
+      </div>
       <div class = "row my-row">
-        <div class = "col my-col col-a1 colorcode" id = "6am"> 6am </div>
+        <div class = "col my-col col-a1 colorcode" id = "12pm"> 12pm </div>
         <div class = "col my-col col-a2 edit_cont" > </div>
         <div class = "col my-col col-a3 edit_btn"> edit </div>
     </div>
     <div class = "row my-row" >
-        <div class = "col my-col col-b1 colorcode" id = "7am"> 7am </div>
+        <div class = "col my-col col-b1 colorcode" id = "1pm"> 1pm </div>
         <div class = "col my-col col-b2 edit_cont">  </div>
         <div class = "col my-col col-b3 edit_btn"> edit </div>
     </div>
     <div class = "row my-row" >
-        <div class = "col my-col col-c1 colorcode" id = "8am" > 8am </div>
-        <div class = "col my-col col-c2 edit_cont">  </div>
-        <div class = "col my-col col-c3 edit_btn"> edit </div>
-    </div>
-      <div class = "row my-row">
-        <div class = "col my-col col-a1 colorcode" id = "9am"> 9am </div>
-        <div class = "col my-col col-a2 edit_cont" > </div>
-        <div class = "col my-col col-a3 edit_btn"> edit </div>
-    </div>
-    <div class = "row my-row" >
-        <div class = "col my-col col-b1 colorcode" id = "10am"> 10am </div>
-        <div class = "col my-col col-b2 edit_cont">  </div>
-        <div class = "col my-col col-b3 edit_btn"> edit </div>
-    </div>
-    <div class = "row my-row" >
-        <div class = "col my-col col-c1 colorcode" id = "11am" > 11am </div>
+        <div class = "col my-col col-c1 colorcode" id = "2pm" > 2pm </div>
         <div class = "col my-col col-c2 edit_cont">  </div>
         <div class = "col my-col col-c3 edit_btn"> edit </div>
     </div>
     <div class = "row my-row">
-      <div class = "col my-col col-a1 colorcode" id = "12pm"> 12pm </div>
+      <div class = "col my-col col-a1 colorcode" id = "3pm"> 3pm </div>
       <div class = "col my-col col-a2 edit_cont" > </div>
       <div class = "col my-col col-a3 edit_btn"> edit </div>
   </div>
   <div class = "row my-row" >
-      <div class = "col my-col col-b1 colorcode" id = "1pm"> 1pm </div>
+      <div class = "col my-col col-b1 colorcode" id = "4pm"> 4pm </div>
       <div class = "col my-col col-b2 edit_cont">  </div>
       <div class = "col my-col col-b3 edit_btn"> edit </div>
   </div>
   <div class = "row my-row" >
-      <div class = "col my-col col-c1 colorcode" id = "2pm" > 2pm </div>
+      <div class = "col my-col col-c1 colorcode" id = "5pm" > 5pm </div>
       <div class = "col my-col col-c2 edit_cont">  </div>
       <div class = "col my-col col-c3 edit_btn"> edit </div>
   </div>
   <div class = "row my-row">
-    <div class = "col my-col col-a1 colorcode" id = "3pm"> 3pm </div>
+    <div class = "col my-col col-a1 colorcode" id = "6pm"> 6pm </div>
     <div class = "col my-col col-a2 edit_cont" > </div>
     <div class = "col my-col col-a3 edit_btn"> edit </div>
-</div>
-<div class = "row my-row" >
-    <div class = "col my-col col-b1 colorcode" id = "4pm"> 4pm </div>
+  </div>
+  <div class = "row my-row" >
+    <div class = "col my-col col-b1 colorcode" id = "7pm"> 7pm </div>
     <div class = "col my-col col-b2 edit_cont">  </div>
     <div class = "col my-col col-b3 edit_btn"> edit </div>
-</div>
-<div class = "row my-row" >
-    <div class = "col my-col col-c1 colorcode" id = "5pm" > 5pm </div>
+  </div>
+  <div class = "row my-row" >
+    <div class = "col my-col col-c1 colorcode" id = "8pm" > 8pm </div>
     <div class = "col my-col col-c2 edit_cont">  </div>
     <div class = "col my-col col-c3 edit_btn"> edit </div>
-</div>
-<div class = "row my-row">
-  <div class = "col my-col col-a1 colorcode" id = "6pm"> 6pm </div>
-  <div class = "col my-col col-a2 edit_cont" > </div>
-  <div class = "col my-col col-a3 edit_btn"> edit </div>
-</div>
-<div class = "row my-row" >
-  <div class = "col my-col col-b1 colorcode" id = "7pm"> 7pm </div>
-  <div class = "col my-col col-b2 edit_cont">  </div>
-  <div class = "col my-col col-b3 edit_btn"> edit </div>
-</div>
-<div class = "row my-row" >
-  <div class = "col my-col col-c1 colorcode" id = "8pm" > 8pm </div>
-  <div class = "col my-col col-c2 edit_cont">  </div>
-  <div class = "col my-col col-c3 edit_btn"> edit </div>
-</div>
-<div class = "row my-row">
-  <div class = "col my-col col-a1 colorcode" id = "9pm"> 9pm </div>
-  <div class = "col my-col col-a2 edit_cont" > </div>
-  <div class = "col my-col col-a3 edit_btn"> edit </div>
-</div>
-<div class = "row my-row" >
-  <div class = "col my-col col-b1 colorcode" id = "10pm"> 10pm </div>
-  <div class = "col my-col col-b2 edit_cont">  </div>
-  <div class = "col my-col col-b3 edit_btn"> edit </div>
-</div>
-<div class = "row my-row" >
-  <div class = "col my-col col-c1 colorcode" id = "11pm" > 11pm </div>
-  <div class = "col my-col col-c2 edit_cont">  </div>
-  <div class = "col my-col col-c3 edit_btn"> edit </div>
-</div>
+  </div>
+  <div class = "row my-row">
+    <div class = "col my-col col-a1 colorcode" id = "9pm"> 9pm </div>
+    <div class = "col my-col col-a2 edit_cont" > </div>
+    <div class = "col my-col col-a3 edit_btn"> edit </div>
+  </div>
+  <div class = "row my-row" >
+    <div class = "col my-col col-b1 colorcode" id = "10pm"> 10pm </div>
+    <div class = "col my-col col-b2 edit_cont">  </div>
+    <div class = "col my-col col-b3 edit_btn"> edit </div>
+  </div>
+  <div class = "row my-row" >
+    <div class = "col my-col col-c1 colorcode" id = "11pm" > 11pm </div>
+    <div class = "col my-col col-c2 edit_cont">  </div>
+    <div class = "col my-col col-c3 edit_btn"> edit </div>
+  </div>
 
       <!-- Timeblocks go here -->
-    </div>
-    
+</div>
+<div id="schedule"></div>
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
     <script src="lib/moment.js"></script>
-    <script src="lib/index.js"></script>
+    <script src="lib/days.js"></script>
   </body>
 </html>

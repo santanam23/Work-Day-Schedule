@@ -1,3 +1,22 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
+@import url(https://fonts.googleapis.com/icon?family=Material+Icons);
+.icon {
+  font-family: "Material Icons", serif;
+  font-style: normal;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: "liga";
+}
+
 * {
   box-sizing: border-box;
 }
@@ -18,14 +37,42 @@ textarea{
   padding: 10px;
 }
 
-.jumbotron {
+.header {
   text-align: center;
   background-color: transparent;
   color: black;
   border-radius: 0;
   border-bottom: 10px solid black;
+  width: 100%;
+  padding: 1.75em 0;
+  display: block;
 }
 
+.schedule_container {
+  background: linear-gradient();
+  display:flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+.days_container {
+  display:flex;
+}
+
+.corner {
+  width: 50px;
+  height: 70px;
+  margin: 2px
+}
+
+.day {
+  width: 100px;
+  border: solid;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2px;
+}
 .description{
   white-space: pre-wrap;
 }
@@ -38,7 +85,23 @@ textarea{
 .row {
   white-space: pre-wrap;
   height: 80px;
-  border-top: 1px solid white;;
+  border-top: 1px solid white;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+
+}
+.row-middle {
+  align-items: center;
+}
+
+.column {
+  flex-grow: 1;
+  flex-basis: 0;
+  max-width: 100%;
 }
 
 .hour {
@@ -49,17 +112,17 @@ textarea{
 
 .past {
   background-color: #d3d3d3;
-  color: white;
+  color: red;
 }
 
 .present {
   background-color: #ff6961;
-  color: white;
+  color: greenyellow;
 }
 
 .future {
   background-color: #77dd77;
-  color: white;
+  color: grey;
 }
 
 .saveBtn {
