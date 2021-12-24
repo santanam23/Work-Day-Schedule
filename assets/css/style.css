@@ -47,7 +47,9 @@ textarea{
   padding: 1.75em 0;
   display: block;
 }
-
+h1 {
+  text-align: center;
+}
 .schedule_container {
   background: linear-gradient();
   display:flex;
@@ -73,6 +75,19 @@ textarea{
   align-items: center;
   margin: 2px;
 }
+
+.task{
+  background-color: white;
+  height: 70px;
+  width: 100px;
+  margin: 2px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+}
+
 .description{
   white-space: pre-wrap;
 }
