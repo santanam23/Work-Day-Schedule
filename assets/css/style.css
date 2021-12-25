@@ -1,9 +1,19 @@
+*, ::after, ::before {
+    box-sizing: border-box;
+}
 body {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     line-height: 1;
   }
   
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}  
   textarea{
     background: transparent;
     border: none;
@@ -19,6 +29,11 @@ body {
     color: black;
     border-radius: 0;
     border-bottom: 10px solid black;
+  }
+
+  .jumbotron {
+      padding: 2rem 1rem;
+      margin-bottom: 2rem;
   }
   
   .description{
